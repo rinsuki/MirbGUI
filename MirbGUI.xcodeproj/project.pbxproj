@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		215D3F856D0A96528BC54B69 /* Pods_MirbGUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBB51B522C27611BC52C68B /* Pods_MirbGUITests.framework */; };
+		430C851AC707D0D14F39F8C1 /* Pods_MirbGUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDED82A4997D6D4D8FB2951 /* Pods_MirbGUI.framework */; };
+		C8326FAE664C6F3ECE1584A2 /* Pods_MirbGUI_MirbGUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2616F27A87874B602F94D9 /* Pods_MirbGUI_MirbGUIUITests.framework */; };
+		CEDDF9E6250020D700D3F9A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDF9E5250020D700D3F9A9 /* AppDelegate.swift */; };
+		CEDDF9EA250020D900D3F9A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDDF9E9250020D900D3F9A9 /* Assets.xcassets */; };
+		CEDDF9ED250020D900D3F9A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDDF9EC250020D900D3F9A9 /* Preview Assets.xcassets */; };
+		CEDDF9F0250020D900D3F9A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDDF9EE250020D900D3F9A9 /* Main.storyboard */; };
+		CEDDF9FC250020D900D3F9A9 /* MirbGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDF9FB250020D900D3F9A9 /* MirbGUITests.swift */; };
+		CEDDFA07250020DA00D3F9A9 /* MirbGUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDFA06250020DA00D3F9A9 /* MirbGUIUITests.swift */; };
+		CEDDFA1D2500222B00D3F9A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDFA1C2500222B00D3F9A9 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEDDF9F8250020D900D3F9A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDDF9DA250020D700D3F9A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDDF9E1250020D700D3F9A9;
+			remoteInfo = MirbGUI;
+		};
+		CEDDFA03250020DA00D3F9A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDDF9DA250020D700D3F9A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDDF9E1250020D700D3F9A9;
+			remoteInfo = MirbGUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EDED82A4997D6D4D8FB2951 /* Pods_MirbGUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MirbGUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC71A43F28A29668B34F25C /* Pods-MirbGUI-MirbGUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MirbGUI-MirbGUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-MirbGUI-MirbGUIUITests/Pods-MirbGUI-MirbGUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		56AA728396F19526071E5A00 /* Pods-MirbGUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MirbGUITests.release.xcconfig"; path = "Target Support Files/Pods-MirbGUITests/Pods-MirbGUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E49C5EC29B8FD3AD0B77D28 /* Pods-MirbGUI-MirbGUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MirbGUI-MirbGUIUITests.release.xcconfig"; path = "Target Support Files/Pods-MirbGUI-MirbGUIUITests/Pods-MirbGUI-MirbGUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6526B7A285C81A135DA15DA3 /* Pods-MirbGUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MirbGUI.release.xcconfig"; path = "Target Support Files/Pods-MirbGUI/Pods-MirbGUI.release.xcconfig"; sourceTree = "<group>"; };
+		6F2616F27A87874B602F94D9 /* Pods_MirbGUI_MirbGUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MirbGUI_MirbGUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FBB51B522C27611BC52C68B /* Pods_MirbGUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MirbGUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C279B20940699B5AB3F8EC18 /* Pods-MirbGUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MirbGUI.debug.xcconfig"; path = "Target Support Files/Pods-MirbGUI/Pods-MirbGUI.debug.xcconfig"; sourceTree = "<group>"; };
+		CEDDF9E2250020D700D3F9A9 /* MirbGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MirbGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDDF9E5250020D700D3F9A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEDDF9E9250020D900D3F9A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDDF9EC250020D900D3F9A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEDDF9EF250020D900D3F9A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEDDF9F1250020D900D3F9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDDF9F2250020D900D3F9A9 /* MirbGUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MirbGUI.entitlements; sourceTree = "<group>"; };
+		CEDDF9F7250020D900D3F9A9 /* MirbGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MirbGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDDF9FB250020D900D3F9A9 /* MirbGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirbGUITests.swift; sourceTree = "<group>"; };
+		CEDDF9FD250020D900D3F9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDDFA02250020DA00D3F9A9 /* MirbGUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MirbGUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDDFA06250020DA00D3F9A9 /* MirbGUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirbGUIUITests.swift; sourceTree = "<group>"; };
+		CEDDFA08250020DA00D3F9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDDFA192500217C00D3F9A9 /* MirbGUI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MirbGUI-Bridging-Header.h"; sourceTree = "<group>"; };
+		CEDDFA1C2500222B00D3F9A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC96280F1CA06EE1A459C638 /* Pods-MirbGUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MirbGUITests.debug.xcconfig"; path = "Target Support Files/Pods-MirbGUITests/Pods-MirbGUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDDF9DF250020D700D3F9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430C851AC707D0D14F39F8C1 /* Pods_MirbGUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDDF9F4250020D900D3F9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215D3F856D0A96528BC54B69 /* Pods_MirbGUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDDF9FF250020DA00D3F9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8326FAE664C6F3ECE1584A2 /* Pods_MirbGUI_MirbGUIUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C23A7D0B19AF01F7F8B15A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C279B20940699B5AB3F8EC18 /* Pods-MirbGUI.debug.xcconfig */,
+				6526B7A285C81A135DA15DA3 /* Pods-MirbGUI.release.xcconfig */,
+				4EC71A43F28A29668B34F25C /* Pods-MirbGUI-MirbGUIUITests.debug.xcconfig */,
+				5E49C5EC29B8FD3AD0B77D28 /* Pods-MirbGUI-MirbGUIUITests.release.xcconfig */,
+				FC96280F1CA06EE1A459C638 /* Pods-MirbGUITests.debug.xcconfig */,
+				56AA728396F19526071E5A00 /* Pods-MirbGUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		78ADCBA500620B3A3595AD5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EDED82A4997D6D4D8FB2951 /* Pods_MirbGUI.framework */,
+				6F2616F27A87874B602F94D9 /* Pods_MirbGUI_MirbGUIUITests.framework */,
+				9FBB51B522C27611BC52C68B /* Pods_MirbGUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEDDF9D9250020D700D3F9A9 = {
+			isa = PBXGroup;
+			children = (
+				CEDDF9E4250020D700D3F9A9 /* MirbGUI */,
+				CEDDF9FA250020D900D3F9A9 /* MirbGUITests */,
+				CEDDFA05250020DA00D3F9A9 /* MirbGUIUITests */,
+				CEDDF9E3250020D700D3F9A9 /* Products */,
+				1C23A7D0B19AF01F7F8B15A9 /* Pods */,
+				78ADCBA500620B3A3595AD5E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDDF9E3250020D700D3F9A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDDF9E2250020D700D3F9A9 /* MirbGUI.app */,
+				CEDDF9F7250020D900D3F9A9 /* MirbGUITests.xctest */,
+				CEDDFA02250020DA00D3F9A9 /* MirbGUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDDF9E4250020D700D3F9A9 /* MirbGUI */ = {
+			isa = PBXGroup;
+			children = (
+				CEDDF9E5250020D700D3F9A9 /* AppDelegate.swift */,
+				CEDDFA1C2500222B00D3F9A9 /* ViewController.swift */,
+				CEDDF9E9250020D900D3F9A9 /* Assets.xcassets */,
+				CEDDF9EE250020D900D3F9A9 /* Main.storyboard */,
+				CEDDF9F1250020D900D3F9A9 /* Info.plist */,
+				CEDDF9F2250020D900D3F9A9 /* MirbGUI.entitlements */,
+				CEDDF9EB250020D900D3F9A9 /* Preview Content */,
+				CEDDFA192500217C00D3F9A9 /* MirbGUI-Bridging-Header.h */,
+			);
+			path = MirbGUI;
+			sourceTree = "<group>";
+		};
+		CEDDF9EB250020D900D3F9A9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEDDF9EC250020D900D3F9A9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEDDF9FA250020D900D3F9A9 /* MirbGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDDF9FB250020D900D3F9A9 /* MirbGUITests.swift */,
+				CEDDF9FD250020D900D3F9A9 /* Info.plist */,
+			);
+			path = MirbGUITests;
+			sourceTree = "<group>";
+		};
+		CEDDFA05250020DA00D3F9A9 /* MirbGUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDDFA06250020DA00D3F9A9 /* MirbGUIUITests.swift */,
+				CEDDFA08250020DA00D3F9A9 /* Info.plist */,
+			);
+			path = MirbGUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDDF9E1250020D700D3F9A9 /* MirbGUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDDFA0B250020DA00D3F9A9 /* Build configuration list for PBXNativeTarget "MirbGUI" */;
+			buildPhases = (
+				793593CA581C2F76FDF887D5 /* [CP] Check Pods Manifest.lock */,
+				71702461A696FA371EE6B5AE /* [CP] Prepare Artifacts */,
+				CEDDF9DE250020D700D3F9A9 /* Sources */,
+				CEDDF9DF250020D700D3F9A9 /* Frameworks */,
+				CEDDF9E0250020D700D3F9A9 /* Resources */,
+				0DD06974EFDBB2D0590E696B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MirbGUI;
+			productName = MirbGUI;
+			productReference = CEDDF9E2250020D700D3F9A9 /* MirbGUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEDDF9F6250020D900D3F9A9 /* MirbGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDDFA0E250020DA00D3F9A9 /* Build configuration list for PBXNativeTarget "MirbGUITests" */;
+			buildPhases = (
+				35339F635F14B5FDF87C8D7B /* [CP] Check Pods Manifest.lock */,
+				CEDDF9F3250020D900D3F9A9 /* Sources */,
+				CEDDF9F4250020D900D3F9A9 /* Frameworks */,
+				CEDDF9F5250020D900D3F9A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDDF9F9250020D900D3F9A9 /* PBXTargetDependency */,
+			);
+			name = MirbGUITests;
+			productName = MirbGUITests;
+			productReference = CEDDF9F7250020D900D3F9A9 /* MirbGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEDDFA01250020DA00D3F9A9 /* MirbGUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDDFA11250020DA00D3F9A9 /* Build configuration list for PBXNativeTarget "MirbGUIUITests" */;
+			buildPhases = (
+				FFF3617CF9DCCCDCCAAF4A68 /* [CP] Check Pods Manifest.lock */,
+				3DD971B7731A3978E19EC136 /* [CP] Prepare Artifacts */,
+				CEDDF9FE250020DA00D3F9A9 /* Sources */,
+				CEDDF9FF250020DA00D3F9A9 /* Frameworks */,
+				CEDDFA00250020DA00D3F9A9 /* Resources */,
+				7276DF923B5F3E60234F3738 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDDFA04250020DA00D3F9A9 /* PBXTargetDependency */,
+			);
+			name = MirbGUIUITests;
+			productName = MirbGUIUITests;
+			productReference = CEDDFA02250020DA00D3F9A9 /* MirbGUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDDF9DA250020D700D3F9A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CEDDF9E1250020D700D3F9A9 = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
+					};
+					CEDDF9F6250020D900D3F9A9 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = CEDDF9E1250020D700D3F9A9;
+					};
+					CEDDFA01250020DA00D3F9A9 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = CEDDF9E1250020D700D3F9A9;
+					};
+				};
+			};
+			buildConfigurationList = CEDDF9DD250020D700D3F9A9 /* Build configuration list for PBXProject "MirbGUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDDF9D9250020D700D3F9A9;
+			productRefGroup = CEDDF9E3250020D700D3F9A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDDF9E1250020D700D3F9A9 /* MirbGUI */,
+				CEDDF9F6250020D900D3F9A9 /* MirbGUITests */,
+				CEDDFA01250020DA00D3F9A9 /* MirbGUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDDF9E0250020D700D3F9A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDDF9F0250020D900D3F9A9 /* Main.storyboard in Resources */,
+				CEDDF9ED250020D900D3F9A9 /* Preview Assets.xcassets in Resources */,
+				CEDDF9EA250020D900D3F9A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDDF9F5250020D900D3F9A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDDFA00250020DA00D3F9A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DD06974EFDBB2D0590E696B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MirbGUI/Pods-MirbGUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MirbGUI/Pods-MirbGUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MirbGUI/Pods-MirbGUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35339F635F14B5FDF87C8D7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MirbGUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DD971B7731A3978E19EC136 /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MirbGUI-MirbGUIUITests/Pods-MirbGUI-MirbGUIUITests-artifacts-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MirbGUI-MirbGUIUITests/Pods-MirbGUI-MirbGUIUITests-artifacts-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MirbGUI-MirbGUIUITests/Pods-MirbGUI-MirbGUIUITests-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71702461A696FA371EE6B5AE /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MirbGUI/Pods-MirbGUI-artifacts-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MirbGUI/Pods-MirbGUI-artifacts-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MirbGUI/Pods-MirbGUI-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7276DF923B5F3E60234F3738 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MirbGUI-MirbGUIUITests/Pods-MirbGUI-MirbGUIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MirbGUI-MirbGUIUITests/Pods-MirbGUI-MirbGUIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MirbGUI-MirbGUIUITests/Pods-MirbGUI-MirbGUIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		793593CA581C2F76FDF887D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MirbGUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFF3617CF9DCCCDCCAAF4A68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MirbGUI-MirbGUIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDDF9DE250020D700D3F9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDDFA1D2500222B00D3F9A9 /* ViewController.swift in Sources */,
+				CEDDF9E6250020D700D3F9A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDDF9F3250020D900D3F9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDDF9FC250020D900D3F9A9 /* MirbGUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDDF9FE250020DA00D3F9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDDFA07250020DA00D3F9A9 /* MirbGUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEDDF9F9250020D900D3F9A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDDF9E1250020D700D3F9A9 /* MirbGUI */;
+			targetProxy = CEDDF9F8250020D900D3F9A9 /* PBXContainerItemProxy */;
+		};
+		CEDDFA04250020DA00D3F9A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDDF9E1250020D700D3F9A9 /* MirbGUI */;
+			targetProxy = CEDDFA03250020DA00D3F9A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEDDF9EE250020D900D3F9A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDDF9EF250020D900D3F9A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDDFA09250020DA00D3F9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEDDFA0A250020DA00D3F9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CEDDFA0C250020DA00D3F9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C279B20940699B5AB3F8EC18 /* Pods-MirbGUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MirbGUI/MirbGUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MirbGUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4XKKKM86RN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MirbGUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = net.rinsuki.apps.MirbGUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MirbGUI/MirbGUI-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CEDDFA0D250020DA00D3F9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6526B7A285C81A135DA15DA3 /* Pods-MirbGUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MirbGUI/MirbGUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MirbGUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4XKKKM86RN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MirbGUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = net.rinsuki.apps.MirbGUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MirbGUI/MirbGUI-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CEDDFA0F250020DA00D3F9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC96280F1CA06EE1A459C638 /* Pods-MirbGUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4XKKKM86RN;
+				INFOPLIST_FILE = MirbGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = net.rinsuki.apps.MirbGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MirbGUI.app/Contents/MacOS/MirbGUI";
+			};
+			name = Debug;
+		};
+		CEDDFA10250020DA00D3F9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56AA728396F19526071E5A00 /* Pods-MirbGUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4XKKKM86RN;
+				INFOPLIST_FILE = MirbGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = net.rinsuki.apps.MirbGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MirbGUI.app/Contents/MacOS/MirbGUI";
+			};
+			name = Release;
+		};
+		CEDDFA12250020DA00D3F9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EC71A43F28A29668B34F25C /* Pods-MirbGUI-MirbGUIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4XKKKM86RN;
+				INFOPLIST_FILE = MirbGUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.rinsuki.apps.MirbGUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MirbGUI;
+			};
+			name = Debug;
+		};
+		CEDDFA13250020DA00D3F9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E49C5EC29B8FD3AD0B77D28 /* Pods-MirbGUI-MirbGUIUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4XKKKM86RN;
+				INFOPLIST_FILE = MirbGUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.rinsuki.apps.MirbGUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MirbGUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDDF9DD250020D700D3F9A9 /* Build configuration list for PBXProject "MirbGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDDFA09250020DA00D3F9A9 /* Debug */,
+				CEDDFA0A250020DA00D3F9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDDFA0B250020DA00D3F9A9 /* Build configuration list for PBXNativeTarget "MirbGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDDFA0C250020DA00D3F9A9 /* Debug */,
+				CEDDFA0D250020DA00D3F9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDDFA0E250020DA00D3F9A9 /* Build configuration list for PBXNativeTarget "MirbGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDDFA0F250020DA00D3F9A9 /* Debug */,
+				CEDDFA10250020DA00D3F9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDDFA11250020DA00D3F9A9 /* Build configuration list for PBXNativeTarget "MirbGUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDDFA12250020DA00D3F9A9 /* Debug */,
+				CEDDFA13250020DA00D3F9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDDF9DA250020D700D3F9A9 /* Project object */;
+}

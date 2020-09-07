@@ -1,0 +1,28 @@
+PODS:
+  - "libmruby (2.1.2+0.0.1)"
+  - MRubyKit (0.1.0):
+    - libmruby
+
+DEPENDENCIES:
+  - MRubyKit (from `https://github.com/cinderella-project/MRubyKit`)
+
+SPEC REPOS:
+  https://github.com/cinderella-project/PodsSpecs:
+    - libmruby
+
+EXTERNAL SOURCES:
+  MRubyKit:
+    :git: https://github.com/cinderella-project/MRubyKit
+
+CHECKOUT OPTIONS:
+  MRubyKit:
+    :commit: 3188e70a30a7a7fb743dd72b21116ac1dab4f492
+    :git: https://github.com/cinderella-project/MRubyKit
+
+SPEC CHECKSUMS:
+  libmruby: 07f7feecdcc0303058dba388df39086ec676b654
+  MRubyKit: d48b8393996a744ac7f9bb60c0b4c58aa6523da8
+
+PODFILE CHECKSUM: c21f4cdb67cfdb5ce7976de5788a8198f934ba53
+
+COCOAPODS: 1.9.3
